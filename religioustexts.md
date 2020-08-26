@@ -1,0 +1,8 @@
+#Religious texts
+**Religious texts are texts related to a religious tradition.**
+They differ from literary texts by being a compilation or discussion of
+*beliefs *mythologies *ritual practices *commandments or laws *ethical conduct *spiritual aspirations
+The relative authority of religious texts develops over time and is derived from the ratification, enforcement, and its use across generations. 
+ Some religious texts are accepted or categorized as canonical, some non-canonical, and others extracanonical, semi-canonical, deutero-canonical, pre-canonical or post-canonical.
+ ![holy books](https://qph.fs.quoracdn.net/main-qimg-ba2d9469a66506c70d7e54c776a7a00a)
+ [holy books](https://en.wikipedia.org/wiki/Religious_text)
