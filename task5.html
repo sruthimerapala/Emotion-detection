@@ -41,8 +41,17 @@ var x = 85 ;
 var y = 95;
 var z = 94;
 var a=90;
-var t = x + y +z + a;
-var avg=t/4;
+
+function add(a, b ,c,d) {
+  return a + b + c + d ;
+}
+var t = add(x,y,z,a);
+function avg(a)
+{
+return t/4;
+}
+var avg= avg(t)
+
 document.getElementById("demo1").innerHTML = t;
 document.getElementById("demo2").innerHTML = avg;
 </script>
