@@ -1,0 +1,50 @@
+<!docstype html>
+<html>
+<head>
+<style> 
+table, th, td
+ {
+border:1px solid black;
+outline:2px dashed blue;
+}
+ tr:nth-child(even) {background-color: #f2f2f2;}
+ [class|=top]{background:yellow;}
+
+</style>
+</head>
+<body>
+<table >
+
+  <tr class="top-header">
+    <th >Subject</th>
+    <th align ="left">Data mining</th>
+    <th align="left">Web Technologies</th>
+    <th align="left">AI</th>
+    <th align="left">Compiler Design</th>
+    <th class="row1" align="left">Total</th>
+    <th class="row2" align="left">average</th>
+  
+  </tr>
+  <tr>
+    <th>marks</th>
+    <td id="one" align="right">85</td>
+    <td align = "right">95</td>
+    <td align = "right">94</td>
+    <td align="right">90</td>
+    <td id="demo1"></td>
+    <td id="demo2"></td>
+  </tr>
+
+</table>
+<script>
+var x = 85 ;
+var y = 95;
+var z = 94;
+var a=90;
+var t = x + y +z + a;
+var avg=t/4;
+document.getElementById("demo1").innerHTML = t;
+document.getElementById("demo2").innerHTML = avg;
+</script>
+</body>
+</html>
