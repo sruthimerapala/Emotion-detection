@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<p id="demo"></p>
+<script>
+function validateForm() 
+{
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+
+  var  text;
+    var y = document.forms["myForm"]["phone"].value;
+
+  if (isNaN(y) || y < 1 || y > 9999999999) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo").innerHTML = text; 
+
+
+}
+function myFunction() {
+  var x1 = document.getElementById("v1,v2,v3").required;
+   document.getElementById("demo").innerHTML = x;
+}
+
+</script>
+</head>
+<body>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post" >
+  Name: <input type="text" name="fname" reuired>
+  <br>
+  Phone: <input type="text" name="phone" id="numb" required><br>
+
+  Subject Interest:<br>
+ AI: <input type="checkbox" id="v1" name="v1" value="B" required>
+
+ ML: <input type="checkbox" id="v2" name="v2" value="C" required>
+
+ WebDev: <input type="checkbox" id="v3" name="v3" value="D" required>
+<br>
+
+
+
+  <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
