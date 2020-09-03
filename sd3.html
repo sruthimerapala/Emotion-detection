@@ -5,8 +5,15 @@
 <p id="demo"></p>
 
 <script>
+try{
 var d =prompt("enter a number","");
-
+}
+catch ( e ) {
+                  alert("Error: " + e.description );
+                  }
+finally{
+document.write("Answer is ");
+}
                   
 var c;
 if(d>=10)
