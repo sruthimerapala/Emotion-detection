@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Events</title>
+<script>
+function myFun(x) {
+  x.style.background = "green";
+}
+</script>
+</head>
+<body>
+<h1 onmouseover="style.color='blue'" onmouseout="style.color='black'">Mouse event's onmouseover and onmouseout</h1>
+<button onclick="document.getElementById('demo').innerHTML=Date()">Date</button>
+<p id="demo"></p>
+<p onmousedown="style.color='red'" onmouseup="style.color='blue'">
+Mouse event's onmousedown and onmouseup
+</p>
+onfocus event: <input type="text" onfocus="myFun(this)">
+</body>
+</html>
