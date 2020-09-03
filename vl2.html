@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var str = "HTML is the standard markup language for Web pages. With HTML you can create your own Website.This tutorial follows the latest HTML5 standard.HTML is easy to learn - You will enjoy it!";
+var arr = str.split(" ");
+var text = "";
+var i;
+for (i = 0; i < arr.length; i++) {
+  if(i==5||i==7||i==10)
+  {
+  text += arr[i] + "<br>"
+  }
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
